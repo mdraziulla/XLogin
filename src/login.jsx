@@ -7,7 +7,7 @@ function LoginPage() {
     const [isSubmit, setIsSubmit] = useState(false);
     const handleSubmit = (e)=>{
         e.preventDefault();
-        if(userName==="Crio" && password==="password"){
+        if(userName==="user" && password==="password"){
             setError("");
             setIsSubmit(true);
         }else{
